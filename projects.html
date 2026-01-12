@@ -35,13 +35,28 @@
                 height="315"
                 src="https://www.youtube.com/embed/i7hJYdtTvls"
                 title="Malware Demo"
-                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen>
             </iframe>
         </div>
+    </div>
 
+    <div class="project">
+        <h2>BHS CTF</h2>
+        <p>Created the OSINT and SQL Injection BHS CTF challenges.</p>
+        <a class="github-btn" href="https://github.com/mykados/BHS_CTF_OSINT_CHALLENGE" target="_blank">View Code on Github</a>
+    </div>
 
+    <div class="project">
+        <h2>WIMFG-Van</h2>
+        <p>
+            A project testing a GNN's accuracy on vulnerability detection. The input was an aggregation of program Abstract Syntax Trees (AST), Control Flow Graphs (CFG),
+            and Data Dependence Graphs (DDG) into a single graph. The GNN used GraphSAGE convolution, and the SARD dataset. The GNN was able to effectively differentiate Vulnerable
+            and Not-Vulnerable samples of code with 100% accuracy, and averaged around 65% between vulnerable CWE types. Unfortunately a downside to this project is the use of only the SARD dataset,
+            the model fails to classify real world data, but does show promise between classifying different vulnerabilities using program graphs.
+
+            An issue with the approach is that the GNN might have overfit the data resulting in the high accuracy, and the synthetic dataset not exhibiting the complexities of real world examples.
+        </p>
     </div>
 
     <div class="project">
